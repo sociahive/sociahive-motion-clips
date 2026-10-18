@@ -2,7 +2,7 @@
 
 ## Code and docs
 
-The text files in this repository (`SKILL.md`, `README.md`, `clips.json`, `scripts/`) are
+The text files in this repository (`SKILL.md`, `README.md`, `clips.json`) are
 under the MIT licence:
 
 Copyright (c) 2026 SociaHive
