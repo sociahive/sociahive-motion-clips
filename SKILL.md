@@ -25,12 +25,12 @@ All clips: 1920x1080, 30 fps, silent, each in `clips/` as `.mp4` (H.264) and `.w
 | --- | ---: | --- | --- |
 | `brand_logo_category` | 2.5 | Logo, then "The Social AI Layer" | Opener, or a brand beat between sections |
 | `agentic_publish_everywhere` | 5.0 | An AI chat posts one photo to Instagram, X and TikTok; tool calls tick | Showing that an AI can publish for you |
-| `agentic_bulk_schedule_calendar` | 6.0 | A spreadsheet of 80 ideas becomes 60 posts on the calendar | Bulk scheduling, content calendars, "save hours" |
+| `agentic_bulk_schedule_calendar` | 6.0 | A spreadsheet of ideas in chat, then the calendar fills with posts (the clip shows a sample run: 80 ideas, 60 posts) | Bulk scheduling, content calendars |
 | `agentic_comment_to_dm_funnel` | 6.0 | Comment-to-DM steps next to the Instagram DM thread that captures an email | Lead capture, Instagram automation, "turn posts into leads" |
 | `normal_connect_any_agent` | 4.0 | Claude, ChatGPT, Claude Code and any MCP client switch to Connected | MCP support, "works with your AI" |
 | `agentic_confirm_and_scopes` | 4.0 | Publish needs a confirm; a read-only key is refused | Safety, permissions, trust |
 | `normal_results_outcome_strip` | 3.0 | Counters for posts, impressions, comments, leads (sample numbers) | Analytics and results |
-| `brand_mcp_api_cli` | 2.5 | Green card, split-flap board "MCP · API · CLI" | Developer videos, or a transition |
+| `brand_mcp_api_cli` | 2.5 | Full-screen card, split-flap board "MCP · API · CLI" | Developer videos, or a transition |
 | `brand_end_card_cta` | 3.5 | End card with feature pills, "Connect your AI", sociahive.com/connect-ai | Outro and call to action |
 | `full_social_ai_layer_launch` (mp4 only) | 39.0 | The whole launch film, with music and sound effects | Posting the film as is |
 
