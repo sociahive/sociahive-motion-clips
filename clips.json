@@ -2,7 +2,7 @@
   "name": "sociahive-motion-clips",
   "product": "SociaHive",
   "homepage": "https://www.sociahive.com",
-  "source": "SocialAiLayerLaunch composition (src/remotion/launch/SocialAiLayerLaunch.tsx in the SociaHive monorepo)",
+  "source": "SociaHive launch film (Remotion)",
   "audio": "Scene clips are silent. full_social_ai_layer_launch.mp4 has music and sound effects.",
   "clips": [
     {
@@ -60,7 +60,7 @@
       "width": 1920,
       "height": 1080,
       "fps": 30,
-      "description": "\"80 messy ideas. 60 scheduled posts.\" A spreadsheet is attached in chat with \"Schedule these ideas over the next 90 days\", and the SociaHive calendar fills with posts. Counter reads 60 posts, 5.4 min (our own test).",
+      "description": "\"80 messy ideas. 60 scheduled posts.\" A spreadsheet is attached in chat with \"Schedule these ideas over the next 90 days\", and the SociaHive calendar fills with posts. The counter reads 60 posts, 5.4 min. These are sample numbers from one test run shown in the clip, not a promise for every list.",
       "tags": [
         "agentic",
         "scheduling",
@@ -169,7 +169,7 @@
       "width": 1920,
       "height": 1080,
       "fps": 30,
-      "description": "Green full-screen card: \"Outcome first. Underneath:\" and a split-flap board settling on \"MCP · API · CLI\".",
+      "description": "Full-screen card: \"Outcome first. Underneath:\" and a split-flap board settling on \"MCP · API · CLI\".",
       "tags": [
         "brand",
         "developers",

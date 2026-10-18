@@ -1,13 +1,49 @@
-# SociaHive Motion Clips
+<p align="center">
+  <a href="https://www.sociahive.com">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sociahive/.github/main/assets/brand/logo-dark.svg">
+      <img alt="SociaHive" src="https://raw.githubusercontent.com/sociahive/.github/main/assets/brand/logo-light.svg" width="220">
+    </picture>
+  </a>
+</p>
+
+<p align="center">Run your social media from your AI tool: schedule posts, build DM and comment automations, and read analytics.</p>
+<p align="center">Short 1080p product clips of SociaHive for your videos, posts and ads.</p>
+
+<p align="center">
+  <a href="https://www.sociahive.com">Website</a> ·
+  <a href="https://www.sociahive.com/connect-ai">Connect your AI</a> ·
+  <a href="https://www.sociahive.com/brand">Brand</a>
+</p>
+
+# SociaHive motion clips
 
 Short 1080p product clips of [SociaHive](https://www.sociahive.com), the Social AI Layer,
 for anyone making a video about it: AI publishing, bulk scheduling, comment-to-DM lead
 capture, any MCP agent, permission checks, results, and brand cards.
 
 The clip list, with what each shows and when to use it, is in [`SKILL.md`](SKILL.md).
-The same list for scripts is in [`clips.json`](clips.json) (id, files, frames, seconds,
-width, height, fps, bytes_mp4, bytes_webm, description, tags). Every clip is 1920x1080,
-30 fps, silent, as `.mp4` (H.264) and `.webm` (VP9). The whole folder is about 16 MB.
+The same list for scripts is in [`clips.json`](clips.json) (id, file_mp4, file_webm,
+frames, seconds, width, height, fps, bytes_mp4, bytes_webm, description, tags). Every
+scene clip is 1920x1080, 30 fps, silent, as `.mp4` (H.264) and `.webm` (VP9). The
+`clips/` folder is about 15 MB, of which the full film is 5.3 MB.
+
+To watch a clip, open any `.mp4` in [`clips/`](clips/).
+
+## The clips
+
+| Clip | Seconds | What it shows |
+|---|---|---|
+| `brand_logo_category` | 2.5 | The SociaHive logo and "The Social AI Layer". |
+| `agentic_publish_everywhere` | 5 | "Give your AI access to" with the platform names rolling. |
+| `agentic_bulk_schedule_calendar` | 6 | A spreadsheet of ideas in chat, then the SociaHive calendar fills with posts. The counts in the clip (80 ideas, 60 posts) are a sample run. |
+| `agentic_comment_to_dm_funnel` | 6 | A comment-to-DM automation as plain steps. |
+| `normal_connect_any_agent` | 4 | Claude, ChatGPT, Claude Code and any MCP client connecting. |
+| `agentic_confirm_and_scopes` | 4 | Publishing asks for confirmation; a read-only key is refused a delete. |
+| `normal_results_outcome_strip` | 3 | Results coming back to your AI: posts, impressions, comments and leads (sample numbers). |
+| `brand_mcp_api_cli` | 2.5 | Full-screen card ending on MCP, API and CLI. |
+| `brand_end_card_cta` | 3.5 | End card with the logo, feature pills and the Connect your AI link. |
+| `full_social_ai_layer_launch` | 39 | The whole launch film, with music and sound effects. `.mp4` only, and not in `clips.json`. |
 
 ## Use it as an agent skill
 
@@ -69,9 +105,8 @@ ffmpeg -i promo.mp4 -i music.mp3 -shortest -c:v copy -c:a aac promo-with-music.m
 
 ## How the clips are made
 
-They are cut from the `SocialAiLayerLaunch` Remotion composition in the SociaHive
-monorepo, which renders the real app components with sample data.
-`scripts/render.sh` re-renders them from a monorepo checkout.
+They are cut from the SociaHive launch film, made with Remotion from the real app
+components with sample data.
 
 ## Licence
 
