@@ -26,7 +26,7 @@ The same list for scripts is in [`clips.json`](clips.json) (id, files, frames, s
 width, height, fps, bytes_mp4, bytes_webm, description, tags). Every clip is 1920x1080,
 30 fps, silent, as `.mp4` (H.264) and `.webm` (VP9). The whole folder is about 16 MB.
 
-**Preview:** an animated preview is coming. Until then, open any `.mp4` in [`clips/`](clips/) to watch it.
+To watch a clip, open any `.mp4` in [`clips/`](clips/).
 
 ## The clips
 
@@ -102,9 +102,8 @@ ffmpeg -i promo.mp4 -i music.mp3 -shortest -c:v copy -c:a aac promo-with-music.m
 
 ## How the clips are made
 
-They are cut from the `SocialAiLayerLaunch` Remotion composition in the SociaHive
-monorepo, which renders the real app components with sample data.
-`scripts/render.sh` re-renders them from a monorepo checkout.
+They are cut from the SociaHive launch film, made with Remotion from the real app
+components with sample data.
 
 ## Licence
 

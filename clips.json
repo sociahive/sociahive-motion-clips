@@ -2,7 +2,7 @@
   "name": "sociahive-motion-clips",
   "product": "SociaHive",
   "homepage": "https://www.sociahive.com",
-  "source": "SocialAiLayerLaunch composition (src/remotion/launch/SocialAiLayerLaunch.tsx in the SociaHive monorepo)",
+  "source": "SociaHive launch film (Remotion)",
   "audio": "Scene clips are silent. full_social_ai_layer_launch.mp4 has music and sound effects.",
   "clips": [
     {
