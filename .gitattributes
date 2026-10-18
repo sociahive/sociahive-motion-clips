@@ -1,0 +1,4 @@
+# Clips are binary. If the folder ever passes 100 MB, publish clips/ as GitHub release
+# assets instead and keep only clips.json and the docs in the tree.
+*.mp4 binary
+*.webm binary

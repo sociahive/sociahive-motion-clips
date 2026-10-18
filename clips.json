@@ -1,0 +1,224 @@
+{
+  "name": "sociahive-motion-clips",
+  "product": "SociaHive",
+  "homepage": "https://www.sociahive.com",
+  "source": "SocialAiLayerLaunch composition (src/remotion/launch/SocialAiLayerLaunch.tsx in the SociaHive monorepo)",
+  "audio": "Scene clips are silent. full_social_ai_layer_launch.mp4 has music and sound effects.",
+  "clips": [
+    {
+      "id": "brand_logo_category",
+      "file_mp4": "clips/brand_logo_category.mp4",
+      "file_webm": "clips/brand_logo_category.webm",
+      "frames": [
+        75,
+        149
+      ],
+      "seconds": 2.5,
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "description": "SociaHive logo, then the line \"The Social AI Layer\" with an underline drawn under it.",
+      "tags": [
+        "brand",
+        "logo",
+        "opener"
+      ],
+      "bytes_mp4": 152825,
+      "bytes_webm": 172636
+    },
+    {
+      "id": "agentic_publish_everywhere",
+      "file_mp4": "clips/agentic_publish_everywhere.mp4",
+      "file_webm": "clips/agentic_publish_everywhere.webm",
+      "frames": [
+        150,
+        299
+      ],
+      "seconds": 5.0,
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "description": "\"Give your AI access to\" with platform names rolling (Instagram, X, TikTok, LinkedIn, Facebook). An AI chat asks to post a photo to Instagram, X and TikTok; tool calls tick (List Accounts, Upload Media, Create Scheduled Post, Publish Post Now) and the AI says it published to all three.",
+      "tags": [
+        "agentic",
+        "publishing",
+        "mcp",
+        "multi-platform"
+      ],
+      "bytes_mp4": 578661,
+      "bytes_webm": 717404
+    },
+    {
+      "id": "agentic_bulk_schedule_calendar",
+      "file_mp4": "clips/agentic_bulk_schedule_calendar.mp4",
+      "file_webm": "clips/agentic_bulk_schedule_calendar.webm",
+      "frames": [
+        300,
+        479
+      ],
+      "seconds": 6.0,
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "description": "\"80 messy ideas. 60 scheduled posts.\" A spreadsheet is attached in chat with \"Schedule these ideas over the next 90 days\", and the SociaHive calendar fills with posts. Counter reads 60 posts, 5.4 min (our own test).",
+      "tags": [
+        "agentic",
+        "scheduling",
+        "calendar",
+        "bulk"
+      ],
+      "bytes_mp4": 939995,
+      "bytes_webm": 1073892
+    },
+    {
+      "id": "agentic_comment_to_dm_funnel",
+      "file_mp4": "clips/agentic_comment_to_dm_funnel.mp4",
+      "file_webm": "clips/agentic_comment_to_dm_funnel.webm",
+      "frames": [
+        480,
+        659
+      ],
+      "seconds": 6.0,
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "description": "\"The post brings the leads.\" A comment-to-DM automation as plain steps (comment HELLO, send the guide, ask for email, confirm) next to the Instagram DM thread playing out, ending with the customer's email.",
+      "tags": [
+        "agentic",
+        "automation",
+        "comment-to-dm",
+        "instagram",
+        "lead-capture"
+      ],
+      "bytes_mp4": 783980,
+      "bytes_webm": 989846
+    },
+    {
+      "id": "normal_connect_any_agent",
+      "file_mp4": "clips/normal_connect_any_agent.mp4",
+      "file_webm": "clips/normal_connect_any_agent.webm",
+      "frames": [
+        660,
+        779
+      ],
+      "seconds": 4.0,
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "description": "\"One social layer. Any agent.\" Cards for Claude, ChatGPT, Claude Code and any MCP client snap into a grid and switch from Connect to Connected.",
+      "tags": [
+        "mcp",
+        "integrations",
+        "claude",
+        "chatgpt"
+      ],
+      "bytes_mp4": 551660,
+      "bytes_webm": 713227
+    },
+    {
+      "id": "agentic_confirm_and_scopes",
+      "file_mp4": "clips/agentic_confirm_and_scopes.mp4",
+      "file_webm": "clips/agentic_confirm_and_scopes.webm",
+      "frames": [
+        780,
+        899
+      ],
+      "seconds": 4.0,
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "description": "\"Autonomous doesn't mean uncontrolled.\" Publishing asks for confirmation before it posts; a read-only key is refused a delete with \"Missing scope: posts:write\".",
+      "tags": [
+        "agentic",
+        "safety",
+        "permissions",
+        "trust"
+      ],
+      "bytes_mp4": 584205,
+      "bytes_webm": 760002
+    },
+    {
+      "id": "normal_results_outcome_strip",
+      "file_mp4": "clips/normal_results_outcome_strip.mp4",
+      "file_webm": "clips/normal_results_outcome_strip.webm",
+      "frames": [
+        900,
+        989
+      ],
+      "seconds": 3.0,
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "description": "\"Results come back to your AI.\" A rising line and counters for posts published, impressions, comments and leads captured, labelled \"Sample numbers\".",
+      "tags": [
+        "analytics",
+        "results"
+      ],
+      "bytes_mp4": 397404,
+      "bytes_webm": 522662
+    },
+    {
+      "id": "brand_mcp_api_cli",
+      "file_mp4": "clips/brand_mcp_api_cli.mp4",
+      "file_webm": "clips/brand_mcp_api_cli.webm",
+      "frames": [
+        990,
+        1064
+      ],
+      "seconds": 2.5,
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "description": "Green full-screen card: \"Outcome first. Underneath:\" and a split-flap board settling on \"MCP · API · CLI\".",
+      "tags": [
+        "brand",
+        "developers",
+        "mcp",
+        "api",
+        "cli",
+        "transition"
+      ],
+      "bytes_mp4": 259432,
+      "bytes_webm": 312066
+    },
+    {
+      "id": "brand_end_card_cta",
+      "file_mp4": "clips/brand_end_card_cta.mp4",
+      "file_webm": "clips/brand_end_card_cta.webm",
+      "frames": [
+        1065,
+        1169
+      ],
+      "seconds": 3.5,
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "description": "End card: logo, \"The Social AI Layer\", feature pills (Publish, Schedule in bulk, Comment-to-DM, Results, Any agent), a \"Connect your AI\" button tap and sociahive.com/connect-ai typed out.",
+      "tags": [
+        "brand",
+        "outro",
+        "cta"
+      ],
+      "bytes_mp4": 322946,
+      "bytes_webm": 327824
+    }
+  ],
+  "full": {
+    "id": "full_social_ai_layer_launch",
+    "file_mp4": "clips/full_social_ai_layer_launch.mp4",
+    "frames": [
+      0,
+      1169
+    ],
+    "seconds": 39.0,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "description": "The whole 39-second launch film, with music and sound effects.",
+    "tags": [
+      "full",
+      "launch"
+    ],
+    "bytes_mp4": 5580633
+  }
+}
